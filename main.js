@@ -6,7 +6,7 @@ let player1 = {
     img: 'http://reactmarathon-api.herokuapp.com/assets/scorpion.gif',
     weapon: ['Kunai'],
     attack: function() {
-        console.log(firstPlayer.name + ' ' + 'Fight');
+        console.log(player1.name + ' ' + 'Fight');
     }
 };
 
@@ -16,7 +16,7 @@ let player2 = {
     img: 'http://reactmarathon-api.herokuapp.com/assets/liukang.gif',
     weapon: ['Fireball'],
     attack: function() {
-        console.log(firstPlayer.name + ' ' + 'Fight');
+        console.log(player2.name + ' ' + 'Fight');
     }
 };
 
